@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="creatList.cpp" />
+    <ClCompile Include="deleteNode.cpp" />
+    <ClCompile Include="insertNode.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="printList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeleteNode.h" />
+    <ClInclude Include="head.h" />
+    <ClInclude Include="InsertNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
